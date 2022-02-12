@@ -1,0 +1,50 @@
+html{
+    background-color: #fcfce4;
+    color:darkgreen;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 7rem;
+    font-family: hero-new-hairline,sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+header{
+    font-family: hero-new,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+   
+}
+
+
+h1{
+    font-family: hero-new-hairline,sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 23px;
+}
+
+h2{
+    font-family: hero-new,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 26px;
+    text-decoration-line: underline;
+}
+p3{
+    font-family: hero-new-hairline,sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 12px;;
+}
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+      }
+}
