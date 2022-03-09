@@ -1,0 +1,223 @@
+body {
+
+    font-family: 'Archivo Narrow', sans-serif;
+    background: none;
+    background-color: rgb(235, 235, 235);
+}
+
+
+h1, h2 {
+
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+    color: rgb(70, 73, 102);
+}
+
+.contents {
+
+    width: 960px;
+    margin: auto;
+    padding: 36.8px 0 20px 0;
+}
+
+header {
+
+    text-align: center;
+    background-image: url(https://cdn.arhaus.com/product/StandardV2/COSTSECT3PC_A220201.jpg?preset=Product1360x1015);
+    background-size: cover;
+    background-position: center;
+    display: block;
+ 
+}
+
+header .contents {
+
+    padding: 152px 0px 186px 0;
+}
+
+header h1 {
+
+    font-size: 80px;
+    margin-bottom:0;
+    color: rgb(70, 73, 102);
+}
+
+header h2 {
+
+    font-size: 30px;
+    line-height: 1.2;
+    color: rgb(70, 73, 102);
+}
+
+section {
+
+    display: block;
+    background-color: rgb(70, 73, 102);
+    color: rgb(70, 73, 102);
+    
+}
+
+#section1 {
+
+padding-bottom: 16px;
+background-size: cover;
+display: block;
+background-color:rgb(228, 224, 212);
+
+}
+
+#section2 h1 {
+
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#section3 h1 {
+
+    font-size: 40px;
+    
+}
+#section1 img {
+
+    float: right;
+    border: 1px solid white;
+    margin: 0 0 20px 40px;
+    object-fit: cover;
+    height: 20%;
+    width: 50%;
+}
+
+#section1 p {
+   
+font-size: 18px;
+line-height: 1.4;
+color: rgb(243, 239, 239);
+color: rgb(70, 73, 102);
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#section2 {
+
+    padding-bottom: 16px;
+    color: rgb(70, 73, 102);
+   
+}
+
+#section2 h1 {
+
+    margin-block-start: 0.59em;
+    margin-block-end: 0.59em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.gridpix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    line-height: 1.4;
+    padding: 0px;
+    margin: 0 0 0 0;
+    list-style: none;
+}
+
+ul {
+
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#section2 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 24px;
+    margin-right: 12px;
+}
+    
+#section2 li {
+        padding-right: 30px;
+        color: rgb(243, 239, 239);
+    }
+
+h3 {     
+    font-size: 20px;
+    margin: 0 0 0 0;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    }
+
+li {
+
+        display: list-item;
+    }
+
+#section2 p {
+        line-height: 1.4;
+        font-size: 18px;
+        margin-top: 0px;
+    
+    }
+
+    #section3 {
+
+     background-color: rgb(235, 235, 235);
+    }
+
+#section3 h1 {
+        line-height: 1.56;
+        margin-bottom: 0px; 
+        padding: 48.5px 0 0 0;
+    
+    }
+
+#section3 p {
+            text-align: center;
+            font-size: 26px;
+            padding: 0px 275px 0px 275px;
+            line-height: 1.4;
+            margin-bottom: 84px;
+            padding-bottom: 15px;
+            color: black;
+}
+
+footer p {
+                font-size: 19px;
+                letter-spacing: -0.4px;
+                color: rgb(255, 255, 255);
+                margin: 0 0 5px 0;
+            }
+
+footer {
+
+        display: block;
+        background-color: rgb(70, 73, 102);
+
+    }
