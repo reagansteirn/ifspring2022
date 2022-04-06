@@ -1,0 +1,223 @@
+a#btn_lyft {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #ffe8fa;
+    color: rgb(0, 0, 0);
+    border: 5px solid  rgb(252, 22, 202);
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_lyft:hover {
+    background-color: #ffffff;
+    color: #ff2dd2;
+}
+
+a#btn_mbt {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #4c6350;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    
+  
+   
+}
+
+a#btn_kitten {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: rgb(136, 15, 15);
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+
+
+a#btn_facebook {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: #434e5c;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_facebook:hover {
+    background-color: #7f99bb;
+    color: #fff;
+}
+
+a#btn_ig {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: rgb(230, 18, 159);
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_ig:hover{
+    color: rgb(247, 185, 71);
+    
+}
+
+
+a#btn_kors {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_kors:hover {
+    color:gray;
+}
+
+a#btn_harley {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+   
+    color: rgb(245, 166, 21);
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_harley:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    
+}
+
+a#btn_ny {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .5px;
+    transition: all .2s;
+}
+
+a#btn_ny:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    transition: all .5s;
+}
+
+a#btn_ny:hover {
+    color: rgb(255, 255, 255);
+}
+
+a#btn_ny:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_moo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    color:rgb(44, 80, 58);
+    text-align: left;
+    font-size: 30px;
+    transition: all .2s;
+}
+
+a#btn_moo:hover {
+    color: rgb(0, 0, 0);
+}
+
+a#btn_apple {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s; 
+    background: linear-gradient(135deg,  rgb(217, 191, 238) 0%,rgb(106, 160, 93) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 );
+    color: rgb(255, 255, 255);
+}
+
+a#btn_apple:hover {
+    background: linear-gradient(135deg,  rgb(117, 45, 175) 0%,rgb(21, 75, 8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 );
+    color: rgb(255, 255, 255);
+    
+}
