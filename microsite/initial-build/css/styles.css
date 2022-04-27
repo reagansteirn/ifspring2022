@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(236, 225, 211);
+    font-family: 'KoHo', sans-serif;
+ 
+}
+
+header{
+    font-size: 30pt;
+    margin-block-start: .5em;
+    margin-block-end: 4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    letter-spacing: .2rem;
+}
+
+.navbar {
+    
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-decoration: overline;
+  }
+  
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+
+  .navbar a:hover {
+   
+    color: rgb(237, 153, 17);
+  }
+  
+ 
+  .navbar a.active {
+    
+    color: rgb(233, 167, 44);
+  }
